@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+*{margin: 0;padding: 0;text-decoration: none;}
+
+header{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 500;
+}
+
+header nav ul{
+  width: 1200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li{
+  width: 80px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo { margin-top:7px; }
+
+header nav ul li a{
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.header_bg{
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  background-color: #7F97DB;
+  opacity: 65%;
+  z-index: 400;
+}
+
+.bg{
+  position: absolute;
+  width: 100%;
+  height: 993px;
+  background-image: url('img/visual_main.png');
+background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover;	
+}
+.kenburns-top{width: 100%; height: 980px; }
+
+
+section{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 5095px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.line{margin-top: 140px;}
+
+.bt_wrap{
+  z-index: 300;
+  width: 100%;
+  height: 2500px;
+  display: flex;
+  justify-content: space-between;
+  bottom: 40px;}
+
+.intro {height: 2500px; margin-top: 960px; width: 100%;background-color: #ffffff; font-family: 'Noto Sans KR', sans-serif;  background-image: url("img/main_background.png"); background-repeat: no-repeat; background-position: center; background-size: cover;}
+.st_01{font-size: 55px; font-weight: 300; color: #3D59A8; margin-left: 345px; margin-top: 140px; font-family: 'Noto Sans KR', sans-serif;}
+
+
+.intro_01{margin-left: 855px; margin-top: 85px; font-family: 'Noto Sans KR', sans-serif; }
+.abuot_me{align-content: center;  justify-content: center; align-items: center; font-size: 21px; font-weight: 700; color:#7F97DB; margin-bottom: 17px; font-family: 'Noto Sans KR', sans-serif;}
+.about_me_txt{font-size: 16px; font-weight: 400; color: #424242; font-family: 'Noto Sans KR', sans-serif; line-height:26px;}
+.txt_sub{margin-left: 76px; font-size: 13px; font-weight: 400; color: #757575;}
+.skill{margin-bottom: 25px;}
+
+
+
+.st_02{font-size: 55px; font-weight: 300; color: #3D59A8; margin-left: 345px; margin-top: 140px; font-family: 'Noto Sans KR', sans-serif; margin-bottom: 85px;}
+.index_visual_01{height:450px; background-image:url("img/main_visual_package.png"); background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover; display: flex;justify-content: center;align-items: center; text-align: center;}
+.index_visual_02{height:450px; background-image:url("img/main_visual_advertisement.png");background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover; display: flex;justify-content: center;align-items: center; text-align: center;}
+.index_visual_03{height:450px; background-image:url("img/main_visual_identity.png");background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover; display: flex;justify-content: center;align-items: center; text-align: center;}
+.index_visual_04{height:450px; background-image:url("img/main_visual_aditional.png");background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover; display:flex; justify-content:center; align-items:center; text-align:center;}
+
+.round{height: 398px; width: 398px; background-color: rgba(0, 0, 0, 0.5); border-radius: 1000px; }
+.v_font_01{font-size: 43px; color:#ffffff; font-weight: 500;  display: flex; justify-content: center;align-items: center; text-align: center;margin-top:140px;}
+.v_font_02{font-size:17px; font-weight: 300; color: #ffffff;  display: flex; justify-content: center;align-items: center; text-align: center;}
+
+.button {margin-top: 20px; width: 150px; height: 40px; color: #fff; font-size:20px; border:1px solid #ffffff; border-radius: 20px; background-color: rgba(255, 225, 225, 0.0); font-weight: 700;}
+.button:focus{outline: 0;}
+.button:hover{background:rgba(255, 225, 225, 0.0); cursor: pointer; box-shadow: 0 2px 4px rgb(255, 225, 225, 0.9)}
+
+
+
+
+
+.sub01_all_box{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 4020px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.intro_sub01 {width: 100%; height: 3200px; margin-top: 805px;background-color: #ffffff; font-family: 'Noto Sans KR', sans-serif;  background-image: url("img/main_background_sub01.png"); background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+.kenburns-top_01{width: 100%; height: 820px;
+  background-image: url('img/visual_main_01.png');
+background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover;	 }
+
+
+.package_01{width: 1200px; height: 645px; margin: 0 auto; margin-top: 150px;}
+.num{font-size: 45px; font-weight: 900; color: #7F97DB; margin-bottom: 54px;}
+
+
+.p_txt{width: 610px; height: 100px; margin-bottom: 400px; margin-left: 40px;}
+.box{ display: flex; align-items: center; }
+.day{font-size:25px; font-weight: 700; color: #7F97DB; margin-bottom: 20px;  }
+.title{font-size:24px; font-weight: 700; color: #7F97DB; margin-bottom: 4px}
+.sub_title{font-size:15px; font-weight: 400; color: #7F97DB; margin-bottom: 20px}
+.body_text{font-size:15px; font-weight: 300; color: #424242; line-height: 1.7;}
+
+
+.package_02{width: 1200px; height: 850px; margin: 0 auto; margin-top: 150px; }
+.p_sub_title{font-size:22px; font-weight: 500; color: #7F97DB; margin-bottom: 20px;}
+.p_img_02{margin-top: 20px; margin-right: 20px;}
+
+.package_03{width: 1200px; height: 900px; margin: 0 auto; margin-top: 150px;}
+.p_sub_title{font-size:22px; font-weight: 500; color: #7F97DB; margin-bottom: 20px;}
+.p_img_03{margin-top: 20px; display: flex; justify-content: center;align-items: center;}
+.p_img_03_txt{font-size: 14px; font-weight: 500; color: #7F97DB; margin-top: 7px; margin-bottom: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub02_all_box{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 3050px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.intro_sub02 {width: 100%; height: 2400px; margin-top: 790px;background-color: #ffffff; font-family: 'Noto Sans KR', sans-serif;  background-image: url("img/main_background_sub01.png"); background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+.kenburns-top_02{width: 100%; height: 820px;
+ background-image: url('img/visual_main_02.png');
+background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover;	 }
+
+
+.ad_01{width: 1200px; height: 645px; margin: 0 auto; margin-top: 150px;}
+.ad_02{width: 1200px; height: 645px; margin: 0 auto; margin-top: 300px;}
+.txt_02{width: 730px; height: 100px; margin-bottom: 400px;}
+.a_txt{width: 730px; height: 100px; margin-bottom: 130px;}
+.body_text_02{font-size:15px; font-weight: 300; color: #424242; line-height: 1.7;}
+.a_img_01{margin-right: 20px; }
+.id_02{width: 1200px; height: 850px; margin: 0 auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub03_all_box{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 6510px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.intro_sub03 {width: 100%; height: 5850px; margin-top: 790px;background-color: #ffffff; font-family: 'Noto Sans KR', sans-serif;  background-image: url("img/main_background_sub03.png"); background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+.kenburns-top_03{width: 100%; height: 820px;
+ background-image: url('img/visual_main_03.png');
+background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover;	 }
+
+
+.id_01{width: 1200px; height: 300px; margin: 0 auto; margin-top: 150px;}
+.id_02{width: 1200px; height: 850px; margin: 0 auto; margin-top: 100px; }
+.txt_02{width: 730px; height: 100px; margin-bottom: 400px;}
+.i_txt{width: 730px; height: 100px; margin-bottom: 130px;}
+.body_text_03{font-size:15px; font-weight: 300; color: #424242; line-height: 1.7;}
+.i_img_02{margin-right: 20px; margin-top: 20px;}
+.i_sub_title{font-size:22px; font-weight: 500; color: #7F97DB; margin-bottom: 1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sub04_all_box{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 4440px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.intro_sub04 {width: 100%; height: 3700px; margin-top: 790px;background-color: #ffffff; font-family: 'Noto Sans KR', sans-serif;  background-image: url("img/main_background_sub04.png"); background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+.kenburns-top_04{width: 100%; height: 820px;
+ background-image: url('img/visual_main_04.png');
+background-repeat: no-repeat; margin: 0 auto; background-position: center; background-size: cover;	 }
+
+
+.ed_01{width: 1200px; height: 300px; margin: 0 auto; margin-top: 150px;}
+.ed_02{width: 1200px; height: 465px; margin: 0 auto; margin-top: 100px; }
+.ed_03{width: 1200px; height: 850px; margin: 0 auto; margin-top: 100px;}
+.ed_04{width: 1200px; height: 340px; margin: 0 auto; margin-top: 450px;}
+.txt_02{width: 730px; height: 100px; margin-bottom: 400px;}
+.e_txt{width: 830px; height: 100px; margin-bottom: 130px;}
+.body_text_04{font-size:15px; font-weight: 300; color: #424242; line-height: 1.7;}
+.e_img_01{ margin-top: 20px; margin-right: 20px; }
+.e_img_02{ margin-top: 20px;}
+.e_img_03{margin-top: 20px; margin-left: 290px;}
+.e_sub_title{font-size:22px; font-weight: 500; color: #7F97DB; margin-bottom: 1px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  position: relative;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+  z-index: 100;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.line{margin-left: 17px; margin-right: 17px; margin-bottom: 130px;}
+
+.main_txt{font-size:14px; line-height: 20px;padding-top: 7px;}
+
+.footer_bg{ 
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #92A6E0;
+  opacity: 90%;
+  z-index: 100;
+  display: flex; justify-content: center;align-items: center; text-align: center; padding-top: 10px;}
