@@ -303,6 +303,7 @@ background-repeat: no-repeat; margin: 0 auto; background-position: center; backg
 
 
 footer{
+font-family: 'Noto Sans KR', sans-serif;
   position: relative;
   bottom: 0px;
   height: 80px;
@@ -316,7 +317,7 @@ footer{
 }
 .line{margin-left: 17px; margin-right: 17px; margin-bottom: 130px;}
 
-.main_txt{font-size:14px; line-height: 20px;padding-top: 7px;}
+.main_txt{font-family: 'Noto Sans KR', sans-serif; font-size:14px; line-height: 20px;padding-top: 7px;}
 
 .footer_bg{ 
   position: absolute;
