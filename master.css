@@ -60,7 +60,7 @@ section{
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 5090px;
+  height: 5083px;
   position: relative;
   display: flex;
   overflow: hidden;
@@ -124,7 +124,7 @@ section{
 }
 
 
-.intro_sub01 {width: 100%; height: 3200px; margin-top: 805px;background-color: #ffffff; font-family: 'Noto Sans KR', sans-serif;  background-image: url("img/main_background_sub01.png"); background-repeat: no-repeat; background-position: center; background-size: cover;}
+.intro_sub01 {width: 100%; height: 3207px; margin-top: 805px;background-color: #ffffff; font-family: 'Noto Sans KR', sans-serif;  background-image: url("img/main_background_sub01.png"); background-repeat: no-repeat; background-position: center; background-size: cover;}
 
 .kenburns-top_01{width: 100%; height: 820px;
   background-image: url('img/visual_main_01.png');
